@@ -1,0 +1,25 @@
+{
+  "name": "@konneal/ui-starter",
+  "version": "0.1.0",
+  "description": "The minimal branded frontend for a Konneal publisher deployment — consumes @konneal/client, talks to the engine's API",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "typecheck": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/vue": "^7.0.2",
+    "@konneal/client": "^0.1.0",
+    "astro": "^7.2.6",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.0.0"
+  },
+  "repository": "github:konneal/ui-starter"
+}
