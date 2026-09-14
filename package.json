@@ -1,7 +1,7 @@
 {
   "name": "@konneal/ui-starter",
   "version": "0.1.0",
-  "description": "The minimal branded frontend for a Konneal publisher deployment — consumes @konneal/client, talks to the engine's API",
+  "description": "The minimal branded frontend for a Konneal publisher deployment \u2014 consumes @konneal/client, talks to the engine's API",
   "license": "BSD-3-Clause",
   "type": "module",
   "scripts": {
@@ -21,5 +21,8 @@
     "typescript": "^5.9.3",
     "vue-tsc": "^3.0.0"
   },
-  "repository": "github:konneal/ui-starter"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konneal/ui-starter.git"
+  }
 }
