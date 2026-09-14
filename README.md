@@ -1,5 +1,11 @@
 # @konneal/ui-starter
 
+**This package has been folded into [`create-publisher`](https://github.com/konneal/create-publisher)** — the scaffolder writes these files via `--with-site`. This repo remains as a reference; the Konneal npm surface is two packages: [engine](https://github.com/konneal/engine) and [client](https://github.com/konneal/client).
+
+---
+
+# @konneal/ui-starter
+
 The minimal branded frontend for a Konneal publisher deployment. It
 consumes [`@konneal/client`](https://github.com/konneal/client) — the
 wire types, the SSE ask client, the escape-first markdown renderer, the
